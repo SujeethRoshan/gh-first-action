@@ -11,4 +11,6 @@ jobs:
     steps:
       - name: print
         run: echo "hello"
+#can give pipe run: | and enter and give multi-line shell cmds.        
+        
       
