@@ -9,6 +9,6 @@ jobs:
 #google github hosted runners for detailed github hosted runners available
     runs-on: ubuntu-latest
     steps:
-      -name: print
-       run: echo "we can use cmds or actions in steps"
+      - name: print
+        run: echo "hello"
       
