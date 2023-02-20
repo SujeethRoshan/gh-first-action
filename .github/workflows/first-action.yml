@@ -1,0 +1,14 @@
+#many workflow can be created in the workflows folder
+#first give name
+name: first workflow 
+#on is for when this shld run
+on: workflow_dispatch
+#jobs and then enter and tab
+jobs:
+  first-job: 
+#google github hosted runners for detailed github hosted runners available
+    runs-on: ubuntu-latest
+    steps:
+      -name: print
+       run: echo "we can use cmds or actions in steps"
+      
